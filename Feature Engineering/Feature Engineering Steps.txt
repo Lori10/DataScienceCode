@@ -1,0 +1,12 @@
+Train Test Split 
+Dropping unnecessary columns
+Handling Unwanted Values (we can treat them as missing values)
+Handling Missing Values (they can be denoted as np.nan or ' ' or '?' etc)
+Encoding Categorical Features
+Handling Outliers (for example Gaussian Transformation)
+Feature Selection [ A)Dropping constant features, B)Handling Multicolleniarity, C)Feature Selection ]
+Feature Scaling
+
+Note : after each step of feature engineering we must check that both training and test set have same columns
+using : np.array_equal(X_train.columns, X_test.columns)
+
